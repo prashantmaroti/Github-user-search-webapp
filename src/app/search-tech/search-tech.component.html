@@ -1,0 +1,23 @@
+
+<div *ngIf="this.gitservice.tech ">
+<div class="container">
+        <div *ngFor="let tech of this.gitservice.tech"> 
+            <hr>
+            <div class="row detail">
+                <div class="col-sm-4">
+                    <img src="{{tech.owner.avatar_url}}" alt="owner" class="owner img-circle">
+                </div>
+                <div class="col-sm-4">
+                    <h4>Id : {{tech.id}} </h4>
+                    <h4>Login : {{tech.login}} </h4>
+                    <h4>Repo Created: {{tech.created_at}} </h4>
+                    <h4>Repo Updated : {{tech.updated_at}} </h4>
+                </div>
+                <div class="col-sm-4">
+                    <h4> Repo-Name : {{tech.name}}</h4>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>

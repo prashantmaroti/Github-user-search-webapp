@@ -1,0 +1,33 @@
+.foot
+{
+    bottom:0px;
+}
+.abc a
+{
+	color:#9078ac
+}
+.abc ul li
+{
+	list-style:none
+}
+
+.def
+{
+    margin-left:45px;
+	color:#616161
+}
+.icon
+{
+    height:80px;
+    width:110px;
+    margin-left:140px;
+    margin-bottom:10px;
+}  
+.copyright
+{
+    text-align:center;
+    font-family:Arial;
+    font-size:14px;
+    color:#9078ac;
+    font-weight:bold;
+} 

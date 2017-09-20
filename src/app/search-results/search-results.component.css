@@ -1,0 +1,43 @@
+.repo{
+    width:300px;
+    list-style:none;
+    cursor: pointer;
+    position: relative;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+}
+.repo:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+    width:200px;
+  }
+
+  .repo a{
+      font-size:18px;
+      color:black;
+  }
+  .image{
+    width:40%;
+}
+
+.image1
+{
+    width:40%;
+    margin-bottom:5px;
+}
+
+.text
+{
+    margin:0;
+    font-size:20px;
+    font-family:cursive;
+}
+
+.abc a
+{
+    font-size:20px;
+    color:black;
+}

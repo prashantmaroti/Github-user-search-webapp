@@ -1,0 +1,13 @@
+<div class="container image">
+    <img class="logo1" src="assets/logo1.png" alt="GitHub">
+</div>  
+<div  id="search_bar">
+    <input #searchBox [(ngModel)]="username" id="search_git" placeholder="Search GitHub  "/>
+    <button type="button" class="btn btn-default" (click)="load_userdata();load_userdata_repos();">
+        User_Repos
+    </button>
+    <button type="button" class="btn btn-default" (click)="load_technology();">
+            Technology
+    </button>
+</div>    
+    

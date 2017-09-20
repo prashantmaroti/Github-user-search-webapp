@@ -1,0 +1,32 @@
+  .image{
+      text-align: center;
+  }
+  .logo1
+  {
+      margin-top:70px;
+      /* margin-left:250px;
+      height:100px;
+      width:500px; */
+      width: 20%;
+      margin-bottom:10px;
+  }
+#search_bar
+{
+    text-align: center;
+}
+#search_git
+{
+    width:350px;
+    height:35px;  
+    margin-bottom:4px;
+    /* margin-left:120px; 
+    margin-right:10px;  */
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14pt;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
