@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class SearchTechComponent implements OnInit {
 
   constructor(private gitservice: GitService) { }
-  usertech = this.gitservice.tech;  
+  usertech = this.gitservice.tech;
   ngOnInit() {
   }
 

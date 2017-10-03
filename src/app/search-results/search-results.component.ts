@@ -12,7 +12,7 @@ export class SearchResultsComponent implements OnInit {
 
   constructor(private gitservice: GitService) { }
   userdata = this.gitservice.data;
-  userrepo = this.gitservice.repo;  
+  userrepo = this.gitservice.repo;
   ngOnInit() {
   }
 

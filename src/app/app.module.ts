@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search.component';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import { RouterModule,Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { SavedLinksComponent } from './saved-links/saved-links.component';
 import { SearchTechComponent } from './search-tech/search-tech.component';

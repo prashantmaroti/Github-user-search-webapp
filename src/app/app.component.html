@@ -1,48 +1,45 @@
-<div class="container-fluid" style="padding: 0px" id=main>
-    <!-- Header -->
-   
-       <nav class="navbar navbar-default navbar-fixed-top ">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             </button>
-             <a class="navbar-brand pull-left" href="#"> <img class="logo img-responsive" src="assets/logo.png" alt="DC Comics"></a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-             <ul class="nav navbar-nav">
-    <li>
-      <a [routerLink]="['/main']" [routerLinkActive]="['active']">HOME</a>
-    </li>
-    <li >
-      <a [routerLink]="['/saved']" [routerLinkActive]="['active']">SAVED LINKS</a>
-    </li>
-    <li >
-        <a href="#">ISSUES</a>
-    </li>
-    <li >
-        <a href="#">MARKETPLACE</a>
-    </li>
-  </ul>
-  <ul class="nav navbar-nav pull-right">
-      <li>
+<div class=container-fluid style="padding: 0px" id=main>
+  <nav class="navbar navbar-default ">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand pull-left" href="#"> <img class="logo img-responsive" src="assets/logo.png" alt="GIT"></a>
+    </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+          <a [routerLink]="['/main']" [routerLinkActive]="['active']">HOME</a>
+        </li>
+        <li >
+          <a [routerLink]="['/saved']" [routerLinkActive]="['active']">SAVED LINKS</a>
+        </li>
+        <li >
+          <a href="#">ISSUES</a>
+        </li>
+        <li >
+          <a href="#">MARKETPLACE</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li>
           <a href="#">SIGN IN</a>
         </li>
         <li>
           <a href="#">IMAGES</a>
         </li>
-  </ul>
+      </ul>
+    </div>
+  </nav>
 </div>
-</nav>
 
+<div class="content">
+    <router-outlet></router-outlet>
 </div>
-<div class="container content">
-    <router-outlet></router-outlet> 
-</div>
-<div class="navbar-fixed-bottom footer">
-  <footer></footer>
+<div class = "navbar-fixed-bottom footer" >
+  <app-footer></app-footer>
 </div>
