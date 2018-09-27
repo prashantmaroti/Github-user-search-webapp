@@ -1,6 +1,6 @@
 # Github
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2. This is a Github search application which is build using angular that is calling external github apis to fetch data.
 
 ## Development server
 
